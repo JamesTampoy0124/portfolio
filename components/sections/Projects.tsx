@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { ExternalLink, Github } from "lucide-react";
 import { projects, sectionCopy } from "@/data";
 import { AnimatedSection } from "@/components/primitives/AnimatedSection";
 import { SectionHeading } from "@/components/primitives/SectionHeading";
@@ -10,7 +8,6 @@ import { Badge } from "@/components/ui/badge";
 export function Projects() {
   const capstoneProjects = projects.filter((project) => project.category === "capstone");
   const collaborativeProjects = projects.filter((project) => project.category === "collaborative");
-  const personalProjects = projects.filter((project) => project.category === "personal");
 
   return (
     <section id="projects" className="px-6 pt-20 md:px-8 lg:px-25">
