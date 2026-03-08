@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">GitHub Copilot icon placeholder</title>
+  <rect width="64" height="64" rx="12" fill="#1A1A1A" />
+  <circle cx="32" cy="28" r="12" fill="#E36A6A" opacity="0.85" />
+  <rect x="18" y="38" width="28" height="10" rx="5" fill="#F0F0F0" opacity="0.9" />
+</svg>

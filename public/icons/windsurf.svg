@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Windsurf icon placeholder</title>
+  <rect width="64" height="64" rx="12" fill="#1A1A1A" />
+  <path d="M12 40C18 32 24 32 30 40C36 48 42 48 52 30" fill="none" stroke="#E36A6A" stroke-width="6" stroke-linecap="round" />
+</svg>

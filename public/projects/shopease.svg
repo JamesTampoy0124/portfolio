@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title">
+  <title id="title">ShopEase preview</title>
+  <rect width="1280" height="720" fill="#101010" />
+  <rect x="90" y="90" width="1100" height="540" rx="20" fill="#1A1A1A" stroke="#2E2E2E" />
+  <rect x="130" y="160" width="420" height="380" rx="16" fill="#242424" />
+  <rect x="590" y="160" width="560" height="100" rx="12" fill="#242424" />
+  <rect x="590" y="280" width="560" height="100" rx="12" fill="#242424" />
+  <rect x="590" y="400" width="560" height="100" rx="12" fill="#242424" />
+  <text x="640" y="118" text-anchor="middle" fill="#E36A6A" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700">ShopEase</text>
+</svg>

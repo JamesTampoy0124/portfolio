@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: 0 68% 65%;
+    --primary-hover: 0 53% 55%;
+    --primary-subtle: 0 78% 76%;
+    --primary-surface: 0 75% 96%;
+    --bg-base: 0 0% 99%;
+    --bg-surface: 0 0% 100%;
+    --bg-elevated: 0 0% 96%;
+    --border-default: 0 0% 88%;
+    --border-focus: 0 68% 65%;
+    --text-base: 0 0% 11%;
+    --text-muted: 0 0% 38%;
+    --radius: 0.625rem;
+  }
+
+  .dark {
+    --primary: 0 68% 65%;
+    --primary-hover: 0 53% 55%;
+    --primary-subtle: 0 78% 76%;
+    --primary-surface: 0 36% 18%;
+    --bg-base: 0 0% 6%;
+    --bg-surface: 0 0% 10%;
+    --bg-elevated: 0 0% 14%;
+    --border-default: 0 0% 18%;
+    --border-focus: 0 68% 65%;
+    --text-base: 0 0% 94%;
+    --text-muted: 0 0% 54%;
+  }
+
+  * {
+    @apply border-border-default;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-bg-base font-sans text-text-base antialiased transition-colors;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply tracking-tight;
+  }
+
+  a,
+  button {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-bg-base;
+  }
+}
+
+@layer utilities {
+  .section-padding {
+    @apply px-6 py-24 md:px-12 lg:px-24;
+  }
+
+  .max-content {
+    @apply mx-auto w-full max-w-6xl;
+  }
+}
