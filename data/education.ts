@@ -3,7 +3,7 @@ import type { EducationEntry } from "@/types";
 export const education: EducationEntry[] = [
   {
     degree: "Certificate in Computer Technology",
-    school: "University of San Carlos - Talamaba Campus",
+    school: "University of San Carlos - Talamban Campus",
     location: "Cebu City, Philippines",
     period: "2022 - 2024",
     gwa: "1.75",

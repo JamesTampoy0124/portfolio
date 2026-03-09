@@ -10,7 +10,7 @@ import { cn } from "@/lib/utils";
 
 type Filter = SkillCategory | "All";
 
-const localIconSlugs = new Set(["cursor", "githubcopilot", "windsurf"]);
+const localIconSlugs = new Set(["cursor", "githubcopilot", "windsurf", "shadcnui"]);
 
 function iconSrc(iconSlug: string) {
   if (localIconSlugs.has(iconSlug)) {
