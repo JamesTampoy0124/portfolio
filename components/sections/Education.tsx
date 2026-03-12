@@ -22,7 +22,6 @@ export function Education() {
                 <div className="flex flex-wrap items-center gap-3">
                   <h3 className="text-lg font-semibold text-text-base">{entry.degree}</h3>
                   <Badge variant="outline">{entry.period}</Badge>
-                  {/* {entry.honors ? <Badge variant="subtle">{entry.honors}</Badge> : null} */}
                 </div>
                 <p className="text-sm text-text-muted">{entry.school} - {entry.location}</p>
                 {entry.highlights?.length ? (
